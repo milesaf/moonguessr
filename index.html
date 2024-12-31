@@ -9,8 +9,8 @@
 <body>
     <!-- Header Section -->
     <header>
-        <h1>Moonguessr</h1>
-        <p>Explore the Moon and test your knowledge of lunar geography!</p>
+        <h1>Moonguessr</h1>    
+        <p><p>
     </header>
 
     <!-- Main Game Container -->
@@ -28,10 +28,14 @@
         <section id="map">
             <h2>Make Your Guess</h2>
             <div id="map-container">
-                <!-- Placeholder for lunar map -->
-                <p>Interactive map coming soon...</p>
+                <!-- Lunar Map Image -->
+                <img 
+                    src="https://astrogeology.usgs.gov/ckan/dataset/db948a2d-4d6a-4775-a0d3-12613d36f9e7/resource/d24d5ef3-abc5-42ee-ac7c-4c3261106327/download/moon_lro_lroc-wac_mosaic_global_1024.jpg" 
+                    alt="Lunar Map" 
+                    id="lunar-map"
+                >
             </div>
-            <button id="submit-guess">Submit Guess</button>
+            <button id="guess">Submit Guess</button>
         </section>
 
         <!-- Results Section -->
@@ -45,7 +49,10 @@
 
     <!-- Footer -->
     <footer>
-        <p> Built for fun </p>
+        <p>Built for fun &copy; 2024</p>
     </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
